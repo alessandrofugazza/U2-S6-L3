@@ -1,0 +1,23 @@
+nav {
+    padding: .5rem;
+    ul {
+        padding-left: 1rem;
+        li{
+          &:not(:last-of-type){
+            margin-right: .5rem;
+          }  
+        }
+    }
+}
+.headline {
+    padding: 2rem 3rem 3rem;
+    &>div:last-of-type{
+        margin-top: 3rem;
+    }
+}
+
+.container {
+    & > section {
+        margin-top: 2rem;
+    }
+}

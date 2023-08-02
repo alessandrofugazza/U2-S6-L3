@@ -1,0 +1,48 @@
+@import "./partials/main";
+
+.container {
+    width: 1170px;
+    margin-inline: auto;
+}
+
+.hero {
+    text-align: center;
+    nav {
+        display: flex;
+        align-items: center;
+        ul{
+            list-style-type: none;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .headline {
+        &>div:first-of-type{
+            display: flex;
+            align-items: center;
+            img {
+                display: block;
+                height: auto;
+            }
+            &>* {
+                width: 50%;
+            }
+        }
+        
+    }
+}
+
+.container {
+    & > section {
+        display: flex;
+        justify-content: space-between;
+        img {
+            display: block;
+            width: 20%;
+        }
+    }
+}
